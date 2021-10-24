@@ -1,9 +1,7 @@
-## <center> Grafana2Hashcat </center>
-#### <center> Python script to convert Grafana hash digests to Hashcat PBKDF2_HMAC_SHA256 format. </center>
+<h1 align="center">Grafana2Hashcat</h1>
+<h5 align="center">Grafana2Hashcat makes it easy to convert Grafana hashes to PBKDF_HMAC_SHA256 format in order to facilitate password cracking using Hashcat.</h5>
 
-# Introduction
-
-Grafana2Hashcat makes it easy to convert Grafana hashes to PBKDF_HMAC_SHA256 format in order to facilitate password cracking using Hashcat.
+## Introduction
 
 Grafana is a multi-platform open source analytics and interactive visualization web application. It provides charts, graphs, and alerts for the web when connected to supported data sources.
 
@@ -44,7 +42,7 @@ sha256:10000:cGVwcGVy:OtMdxXp0UsRC8lnP/3qmHyps6ojuY0ckrhRuIhrk4BxWyLy7NVIxCs0v10
 This entry can then be imported in Hashcat in order to start the password cracking process.
 
 
-# Usage
+## Usage
 ```console
 usage: grafana2hashcat.py [-h] [-o outfile] hashes
 
@@ -59,7 +57,7 @@ optional arguments:
               Default is stdout.
 ```
 
-## Example usage
+### Example usage
 
 ```console
 user@host:~$ cat grafana_hashes.txt
