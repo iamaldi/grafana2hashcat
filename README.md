@@ -1,5 +1,5 @@
 <h1 align="center">Grafana2Hashcat</h1>
-<h5 align="center">Grafana2Hashcat makes it easy to convert Grafana hashes to PBKDF_HMAC_SHA256 format in order to facilitate password cracking using Hashcat.</h5>
+<h5 align="center">Grafana2Hashcat makes it easy to convert Grafana hashes to PBKDF2_HMAC_SHA256 format in order to facilitate password cracking using Hashcat.</h5>
 
 ## Introduction
 
