@@ -5,7 +5,7 @@
 
 Grafana is a multi-platform open source analytics and interactive visualization web application. It provides charts, graphs, and alerts for the web when connected to supported data sources.
 
-During security assessments you might come across a Grafana database, and get ahold of the users password hash digests. By default, the Grafana hash digests are not in a format supported by popular password cracking tools, such as Hashcat. Grafana uses the PBKDF2_HMAC_SHA256 hashing algorithm, and stores the hash digests in hexadecimal, and the salt value in plaintext format in the database.
+During security assessments you might come across a Grafana database, and get ahold of the users password hash digests. By default, the Grafana hash digests are not in a format supported by popular password cracking tools, such as Hashcat. Grafana uses the PBKDF2_HMAC_SHA256 hashing algorithm, and stores the hash digests in hexadecimal, and the salt values in plaintext format in the database.
 
 This can be confirmed by taking a look directly at the responsible code:
 ```go
